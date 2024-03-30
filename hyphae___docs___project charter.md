@@ -40,6 +40,7 @@
 			- learning back end tooling, and
 			- gaining project management experience.
 	- ## Membership
+		- TODO maybe a quick note about [[Göbenfurter Studios]]
 		- ### [[dev/Cody]]
 			- TODO
 		- ### [[dev/Eva]]
