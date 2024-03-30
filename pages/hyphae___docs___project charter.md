@@ -26,9 +26,9 @@
 		- **Portability:** The API should easily bind to whatever interface. For this reason, providing a [[lang/c]] FFI is essential.
 		- **Performance:** The library should perform reasonably well in an application. This means being conservative and secure with resources and memory on the machine as well as on the network.
 		- **Testing:** The library API should be tested with a suite, not necessarily in a real-world application.
-	- ## Constraints and Risks
+	- ## TODO Constraints and Risks
 		- TODO
-	- ## Timeline
+	- ## TODO Timeline
 		- TODO
 	- ## Prototypes
 		- The initial prototype will be a proof of concept library implementation that is not necessarily tested in any real-world applications.
@@ -41,10 +41,8 @@
 			- gaining project management experience.
 	- ## Membership
 		- TODO maybe a quick note about [[Göbenfurter Studios]]
-		- ### [[dev/Cody]]
-			- TODO
-		- ### [[dev/Eva]]
-			- TODO
+		- ### TODO [[dev/Cody]]
+		- ### TODO [[dev/Eva]]
 	- ## Relationships
 		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/php]] for its implementation.
 - # Definitions
