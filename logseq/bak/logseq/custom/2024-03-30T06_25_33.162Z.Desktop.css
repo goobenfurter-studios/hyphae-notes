@@ -1,0 +1,4 @@
+.dark-theme, html[data-theme=dark] {
+  --rose-pine-highlight-high: 248deg, 13%, 36%;
+  --ls-selection-background-color: hsl(var(--rose-pine-highlight-med));
+}

@@ -1,4 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine.css");
+
 .dark-theme, html[data-theme=dark] {
-  --rose-pine-highlight-high: 248deg, 13%, 36%;
-  --ls-selection-background-color: hsl(var(--rose-pine-highlight-med));
+  --ls-selection-background-color: hsl(249deg, 15%, 28%);
 }

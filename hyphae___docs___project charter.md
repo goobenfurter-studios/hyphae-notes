@@ -1,15 +1,47 @@
-- executive summary
-- project scope
-	- goals and objectives
-	- outcomes and deliverables
-	- duration
-- project development
-	- context
-	- requirements
-	- prototypes
-- team development
-	- mission and objectives
-	- membership and roles
-	- relationships
-	- planning information
-- definitions
+# Executive Summary
+	- A hypha (pl. hyphae) is the filament a fungus uses to connect to its mycelial network. With this context, [[Hyphae]] aims to provide a [[lang/nim]] library that allows a user to start their own "mycelial network" within the [[Fediverse]] by implementing [[(streams)]], a federated communications server that uses [[ActivityPub]] and [[Nomad]]. Specifically, Hyphae allows the user to establish a [[nomadic identity]] that allows them to enter their network from multiple points rather than just one server or domain.
+- # Project Scope
+	- ## Goals and Objectives
+		- Hyphae's primary purpose is to provide a protocol library for [[nomadic identity]] in the [[Fediverse]]. To accomplish this goal, there are several intermediate objectives:
+		- Implement the protocols used by [[(streams)]]:
+		  logseq.order-list-type:: number
+			- [[ActivityPub]]
+			  logseq.order-list-type:: number
+			- [[Nomad]]
+			  logseq.order-list-type:: number
+	- ## Outcomes and Deliverables
+		- A protocol library implementation of [[(streams)]]
+		- A test suite for at minimum every call to the API
+		- Documentation for both a user and a developer
+	- ## Out of Scope
+		- a server implementation beyond what is necessary for testing
+- # Project Development
+	- ## Context
+		- TODO explanation of [[Fediverse]]
+			- flaw in current identity implementation: tied to single domain aka single point of failure
+		- TODO history of [[(streams)]]
+	- ## Requirements
+		- **API Documentation:** The library API should be documented concisely (thoroughly but clearly) for easy implementation in external projects.
+		- **Completeness:** The library should implement the complete set of features provided by the protocol.
+		- **Portability:** The API should easily bind to whatever interface. For this reason, providing a [[lang/c]] FFI is essential.
+		- **Performance:** The library should perform reasonably well in an application. This means being conservative and secure with resources and memory on the machine as well as on the network.
+		- **Testing:** The library API should be tested with a suite, not necessarily in a real-world application.
+	- ## Timeline
+		- TODO
+	- ## Prototypes
+		- The initial prototype will be a proof of concept library implementation that is not necessarily tested in any real-world applications.
+- # Team Development
+	- ## Mission and Objectives
+		- The Hyphae's team mission is to provide another implementation of the [[Nomad]] protocol used by [[(streams)]] as well as
+			- practicing test-driven development,
+			- writing back end modules,
+			- learning back end tooling, and
+			- gaining project management experience.
+	- ## Membership
+		- ### [[dev/Cody]]
+			- TODO
+		- ### [[dev/Eva]]
+			- TODO
+	- ## Relationships
+		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/php]] for its implementation.
+- # Definitions

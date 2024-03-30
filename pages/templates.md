@@ -4,7 +4,7 @@ todo-ignore:: true
   template:: meeting minutes
   template-including-parent:: false
 	- title
-	  type:: meeting
+	  tag:: meeting
 	  project::
 		- notetaker:: 
 		  attendees::

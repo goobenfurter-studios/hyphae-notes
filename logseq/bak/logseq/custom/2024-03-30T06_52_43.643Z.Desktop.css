@@ -1,0 +1,9 @@
+@layer base {
+  ::selection {
+    background: hsl(249deg, 15%, 28%);
+  }
+  
+  ::-moz-selection {
+    background: hsl(249deg, 15%, 28%);
+  }
+}
