@@ -1,0 +1,3 @@
+- [original repo](https://codeberg.org/streams/streams)
+- [spec](https://codeberg.org/streams/streams/src/branch/release/spec)
+-

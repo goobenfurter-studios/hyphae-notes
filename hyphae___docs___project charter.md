@@ -1,0 +1,15 @@
+- executive summary
+- project scope
+	- goals and objectives
+	- outcomes and deliverables
+	- duration
+- project development
+	- context
+	- requirements
+	- prototypes
+- team development
+	- mission and objectives
+	- membership and roles
+	- relationships
+	- planning information
+- definitions
