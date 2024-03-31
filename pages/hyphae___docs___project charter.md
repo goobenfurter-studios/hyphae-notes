@@ -15,21 +15,25 @@
 		- Documentation for both a user and a developer
 	- ## Out of Scope
 		- A server implementation beyond what is necessary for testing
+		- Any extraneous features (those not defined in the protocol)
 - # Project Development
 	- ## Context
 		- TODO explanation of [[Fediverse]]
 			- flaw in current identity implementation: tied to single domain aka single point of failure
-		- TODO history of [[(streams)]]
+		- TODO history of [[(streams)]] and credit to [[Mike Macgirvin]]
 	- ## Requirements
 		- **API Documentation:** The library API should be documented concisely (thoroughly but clearly) for easy implementation in external projects.
 		- **Completeness:** The library should implement the complete set of features provided by the protocol.
-		- **Portability:** The API should easily bind to whatever interface. For this reason, providing a [[lang/c]] FFI is essential.
+		- **Ease of Compatibility:** The API should easily bind to whatever interface. For this reason, providing a [[lang/c]] FFI is essential.
 		- **Performance:** The library should perform reasonably well in an application. This means being conservative and secure with resources and memory on the machine as well as on the network.
 		- **Testing:** The library API should be tested with a suite, not necessarily in a real-world application.
-	- ## TODO Constraints and Risks
-		- TODO
-	- ## TODO Timeline
-		- TODO
+	- ## Constraints and Risks
+		- There is no time constraint.
+		- The project is unfunded and will need to spend only time and no money.
+		- No team members have experience implementing network protocols, so we may be greatly underestimating the work involved.
+		- There are not many other projects (besides [[(streams)]]) trying to implement these protocols, so our perspective will be very narrow and largely based on the [[(streams)]] project.
+	- ## TODO Roadmap
+		-
 	- ## Prototypes
 		- The initial prototype will be a proof of concept library implementation that is not necessarily tested in any real-world applications.
 - # Team Development
@@ -51,5 +55,6 @@
 			- Software Designer: [[dev/Eva]]
 				- takes care of low-level operations of codebase
 	- ## Relationships
-		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/php]] for its implementation — [[lang/nim]] .
+		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/php]] for its implementation — [[lang/nim]].
 - # Definitions
+-
