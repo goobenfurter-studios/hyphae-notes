@@ -1,5 +1,5 @@
 # Executive Summary
-	- A hypha (pl. hyphae) is the filament a fungus uses to connect to its mycelial network. With this context, [[Hyphae]] aims to provide a [[lang/nim]] library that allows a user to start their own "mycelial network" within the [[Fediverse]] by implementing [[(streams)]], a federated communications server that uses [[ActivityPub]] and [[Nomad]]. Specifically, Hyphae allows the user to establish a [[nomadic identity]] that allows them to enter their network from multiple points rather than just one server or domain.
+	- A hypha (pl. hyphae) is the filament a fungus uses to connect to its mycelial network. With this context, [[Hyphae]] aims to provide a [[lang/Nim]] library that allows a user to start their own "mycelial network" within the [[Fediverse]] by implementing [[(streams)]], a federated communications server that uses [[ActivityPub]] and [[Nomad]]. Specifically, Hyphae allows the user to establish a [[nomadic identity]] that allows them to enter their network from multiple points rather than just one server or domain.
 - # Project Scope
 	- ## Goals and Objectives
 		- Hyphae's primary purpose is to provide a protocol library for [[nomadic identity]] in the [[Fediverse]]. To accomplish this goal, there are several intermediate objectives:
@@ -55,6 +55,6 @@
 			- Software Designer: [[dev/Eva]]
 				- takes care of low-level operations of codebase
 	- ## Relationships
-		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/php]] for its implementation — [[lang/nim]].
+		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/PHP]] for its implementation — [[lang/Nim]].
 - # Definitions
 -

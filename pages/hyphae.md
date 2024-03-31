@@ -1,1 +1,1 @@
-- proof-of-concept implementation of [[(streams)]] in [[lang/nim]]
+- proof-of-concept implementation of [[(streams)]] in [[lang/Nim]]
