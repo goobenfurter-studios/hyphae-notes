@@ -14,7 +14,7 @@
 		- A test suite for at minimum every call to the API
 		- Documentation for both a user and a developer
 	- ## Out of Scope
-		- a server implementation beyond what is necessary for testing
+		- A server implementation beyond what is necessary for testing
 - # Project Development
 	- ## Context
 		- TODO explanation of [[Fediverse]]
@@ -40,9 +40,16 @@
 			- learning back end tooling, and
 			- gaining project management experience.
 	- ## Membership
-		- TODO maybe a quick note about [[Göbenfurter Studios]]
-		- ### TODO [[dev/Cody]]
-		- ### TODO [[dev/Eva]]
+		- [[Göbenfurter Studios]] is an independent developer studio founded by [[dev/Cody]] and [[dev/Eva]]. The purpose of the studio is to be a platform to allow its developers to explore different areas of programming they are interested in.
+		- ### Management Roles
+			- Project Manager: [[dev/Cody]], [[dev/Eva]]
+			- Assistant Project Manager: [[mascot/Göbenfurter]]
+			- Liaison: [[dev/Eva]]
+		- ### Technical Roles
+			- Software Architect: [[dev/Cody]]
+				- takes care of high-level structure of codebase
+			- Software Designer: [[dev/Eva]]
+				- takes care of low-level operations of codebase
 	- ## Relationships
-		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/php]] for its implementation.
+		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/php]] for its implementation — [[lang/nim]] .
 - # Definitions
