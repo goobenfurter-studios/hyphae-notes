@@ -18,11 +18,12 @@
 		- Any extraneous features (those not defined in the protocol)
 - # Project Development
 	- ## Context
-		- TODO explanation of [[Fediverse]]
-			- flaw in current identity implementation: tied to single domain aka single point of failure
+		- ### Explanation of [[ActivityPub]]
+			- [[ActivityPub]] is the decentralized social networking protocol that allows the software platforms that make up the [[Fediverse]] to interoperate, broadly speaking. It uses the vocabulary provided by [[ActivityStreams]] 2.0 and is officially published as a W3C recommended standard.
+			- [[ActivityPub]] allows for decentralization, but one of its major pain points is that many implementations currently rely on domain-based identities. This means that moving to another server with a different domain name can be technologically challenging. [[Nomad]] is a protocol primarily authored by [[Mike Macgirvin]] that works together with [[ActivityPub]] in order to fix that.
 		- ### History of [[Nomad]]
 			- One of the earliest precursors of [[Nomad]] is the work [[Mike Macgirvin]] did on DFRN (Distributed Friends and Relations Network) and Friendica. This protocol focused on having an authenticated pipe between two actors in the network and magic-auth. Magic-auth provides cross-site identity and access verification: Alice can log into her own server, which Bob's server then can contact to gives Alice access to Bob's site as Bob has allowed.
-			- Then Mike began work on Zot and Hubzilla, which expanded on DFRN but focused less on social networking and more on privacy. Zot solidified magic-auth and provided [[nomadic identity]].
+			- Then Macgirvin began work on Zot and Hubzilla, which expanded on DFRN but focused less on social networking and more on privacy. Zot solidified magic-auth and provided [[nomadic identity]].
 			- His work on nomadic identity is now continued in [[Nomad]] and [[(streams)]], which is what Hyphae is based on.
 	- ## Requirements
 		- **API Documentation:** The library API should be documented concisely (thoroughly but clearly) for easy implementation in external projects.
@@ -48,15 +49,15 @@
 			- learning back end tooling, and
 			- gaining project management experience.
 	- ## Membership
-		- [[Göbenfurter Studios]] is an independent developer studio founded by [[dev/Cody]] and [[dev/Eva]]. The purpose of the studio is to be a platform to allow its developers to explore different areas of programming they are interested in.
+		- [[Göbenfurter Studios]] is an independent developer studio founded by [[Cody Frazier]] and [[Evangeline Barruel]]. The purpose of the studio is to be a platform to allow its developers to explore different areas of programming they are interested in.
 		- ### Management Roles
-			- Project Manager: [[dev/Cody]], [[dev/Eva]]
+			- Project Manager: [[Cody Frazier]] , [[Eva Barruel]]
 			- Assistant Project Manager: [[mascot/Göbenfurter]]
-			- Liaison: [[dev/Eva]]
+			- Liaison: [[Eva Barruel]]
 		- ### Technical Roles
-			- Software Architect: [[dev/Cody]]
+			- Software Architect: [[Cody Frazier]]
 				- takes care of high-level structure of codebase
-			- Software Designer: [[dev/Eva]]
+			- Software Designer: [[Eva Barruel]]
 				- takes care of low-level operations of codebase
 	- ## Relationships
 		- **[[(streams)]]:** Hyphae is based on this project but has chosen a language other than [[lang/PHP]] for its implementation — [[lang/Nim]].
