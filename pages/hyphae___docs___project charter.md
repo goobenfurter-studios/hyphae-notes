@@ -20,13 +20,17 @@
 	- ## Context
 		- TODO explanation of [[Fediverse]]
 			- flaw in current identity implementation: tied to single domain aka single point of failure
-		- TODO history of [[(streams)]] and credit to [[Mike Macgirvin]]
+		- ### History of [[Nomad]]
+			- One of the earliest precursors of [[Nomad]] is the work [[Mike Macgirvin]] did on DFRN (Distributed Friends and Relations Network) and Friendica. This protocol focused on having an authenticated pipe between two actors in the network and magic-auth. Magic-auth provides cross-site identity and access verification: Alice can log into her own server, which Bob's server then can contact to gives Alice access to Bob's site as Bob has allowed.
+			- Then Mike began work on Zot and Hubzilla, which expanded on DFRN but focused less on social networking and more on privacy. Zot solidified magic-auth and provided [[nomadic identity]].
+			- His work on nomadic identity is now continued in [[Nomad]] and [[(streams)]], which is what Hyphae is based on.
 	- ## Requirements
 		- **API Documentation:** The library API should be documented concisely (thoroughly but clearly) for easy implementation in external projects.
 		- **Completeness:** The library should implement the complete set of features provided by the protocol.
 		- **Ease of Compatibility:** The API should easily bind to whatever interface. For this reason, providing a [[lang/c]] FFI is essential.
 		- **Performance:** The library should perform reasonably well in an application. This means being conservative and secure with resources and memory on the machine as well as on the network.
 		- **Testing:** The library API should be tested with a suite, not necessarily in a real-world application.
+		- **Extensibiility:** The library should be modular, making it trivial to extend its capabilities in the future.
 	- ## Constraints and Risks
 		- There is no time constraint.
 		- The project is unfunded and will need to spend only time and no money.
