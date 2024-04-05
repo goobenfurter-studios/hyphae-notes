@@ -1,12 +1,10 @@
 # Executive Summary
-	- A hypha (pl. hyphae) is the filament a fungus uses to connect to its mycelial network. With this context, [[Hyphae]] aims to provide a [[lang/Nim]] library that allows a user to start their own "mycelial network" within the [[Fediverse]] by implementing [[(streams)]], a federated communications server that uses [[ActivityPub]] and [[Nomad]]. Specifically, Hyphae allows the user to establish a [[nomadic identity]] that allows them to enter their network from multiple points rather than just one server or domain.
+	- A hypha (pl. hyphae) is the filament a fungus uses to connect to its mycelial network. With this context, [[Hyphae]] aims to provide a [[lang/Nim]] library that allows a user to start their own "mycelial network" within the [[Fediverse]] by implementing [[(streams)]], a federated communications server that uses [[Nomad]]. Specifically, Hyphae allows the user to establish a [[nomadic identity]] that allows them to enter their network from multiple points rather than just one server or domain.
 - # Project Scope
 	- ## Goals and Objectives
 		- Hyphae's primary purpose is to provide a protocol library for [[nomadic identity]] in the [[Fediverse]]. To accomplish this goal, there are several intermediate objectives:
 		- Implement the protocols used by [[(streams)]]:
 		  logseq.order-list-type:: number
-			- [[ActivityPub]]
-			  logseq.order-list-type:: number
 			- [[Nomad]]
 			  logseq.order-list-type:: number
 	- ## Outcomes and Deliverables
@@ -31,14 +29,27 @@
 		- **Ease of Compatibility:** The API should easily bind to whatever interface. For this reason, providing a [[lang/c]] FFI is essential.
 		- **Performance:** The library should perform reasonably well in an application. This means being conservative and secure with resources and memory on the machine as well as on the network.
 		- **Testing:** The library API should be tested with a suite, not necessarily in a real-world application.
-		- **Extensibiility:** The library should be modular, making it trivial to extend its capabilities in the future.
+		- **Extensibility:** The library should be modular, making it trivial to extend its capabilities in the future.
 	- ## Constraints and Risks
 		- There is no time constraint.
 		- The project is unfunded and will need to spend only time and no money.
 		- No team members have experience implementing network protocols, so we may be greatly underestimating the work involved.
 		- There are not many other projects (besides [[(streams)]]) trying to implement these protocols, so our perspective will be very narrow and largely based on the [[(streams)]] project.
-	- ## TODO Roadmap
-		-
+	- ## NOW Roadmap
+	  :LOGBOOK:
+	  CLOCK: [2024-04-04 Thu 20:36:21]--[2024-04-04 Thu 20:36:22] =>  00:00:01
+	  CLOCK: [2024-04-04 Thu 20:36:23]
+	  :END:
+		- DONE Create Github Repo
+		- TODO Planning Documentation
+		- TODO Diagrams Detailing Developer's Understanding of the Protocol
+		- TODO Test Suite Rough Draft
+		- TODO FULLY OPERATIONAL~ Test Suite
+		- TODO Implement Protocol
+		  :LOGBOOK:
+		  CLOCK: [2024-04-04 Thu 20:42:51]--[2024-04-04 Thu 20:42:52] =>  00:00:01
+		  :END:
+		- TODO End to End Tests
 	- ## Prototypes
 		- The initial prototype will be a proof of concept library implementation that is not necessarily tested in any real-world applications.
 - # Team Development
