@@ -5,9 +5,12 @@ alias:: protocol/Nomad
 	- ```plantuml
 	  @startuml
 	  class Identity {
-	  	claim	: String
-	  	key		: String	# RSA based
+	  	claim : String
+	  	key : String
 	  }
+	  note right of Identity::key
+	  	RSA based
+	  end note
 	  @enduml
 	  ```
 -
